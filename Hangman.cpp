@@ -101,7 +101,6 @@ void wordgen()
 	"france","italy","russia","turkey","greece","saudiarabia","egypt","iran","japan","wales","bangladesh",
 	"cuba","southafrica","ukraine"}; // String array that contains 30 words which are country names 
 	string randomword = listofwords[random_number]; // The word given by the program that the user guesses
-	cout << "Random generated word : " << randomword << endl; // Only for testing
 	string hintword; // Hint word 
 	int wordlength = randomword.length();
 	// Hint word generation 
